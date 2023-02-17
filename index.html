@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/91e0be7ef6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./dist/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="change">
+        <i class="fa-solid fa-headphones-simple change__icon"></i>
+    </div>
+    <div class="container">
+        <main class="card">
+            <div class="card__boximg">
+                <img src="./assets/images/image-qr-code.png" alt="" class="card__img">
+            </div>
+            <div class="card__boxtext">
+                <h1 class="card__text">Improve your front-end skills by building projects</h1>
+            </div>
+            <div class="card__boxothers">
+                <p class="card__others">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+        </main>
+
+        <!-- MP4  -->
+        <div class="artist">
+            <span class="artist__name">Poste Malone</span>
+            <span class="artist__music">Nome musica</span>
+        </div>
+
+        <div class="timer">
+            <input type="range" name="" id="" min="0" max="100" value="0" oninput="changeTime()" class="timer__range">
+        </div>
+
+        <div class="duration">
+            <span class="duration__current">0:00</span>
+            <span class="duration__duration">0:00</span>
+        </div>
+        
+        <div class="volume">
+            <i class="fa-solid fa-volume-low"></i>
+            <input type="range" min="0" max="100" value="80" class="volume__range">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        
+        <div class="controls">
+            <div class="controls__icons">
+                <i class="fa-solid fa-backward controls__icon"></i>
+                <div class="controls__plays" style="--cor: linear-gradient(#ED907B, #6F1C55, #652C8D)">
+                    <i class="fa-solid fa-play controls__play"></i>
+                </div>
+                <i class="fa-solid fa-forward controls__icon"></i>
+            </div>
+        </div>
+
+        <div class="wave">
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+            <span class="wave__stroke"></span>
+        </div>
+
+        <div class="icons">
+            <!-- <i class="fa-solid fa-land-mine-on socials__icon"></i> -->
+            <i class="fa-solid fa-bars icons__icon"></i>
+            <div class="icons__hearts">
+                <i class="fa-solid fa-heart icons__heart"></i>
+                <i class="fa-solid fa-heart icons__heart"></i>
+                <i class="fa-solid fa-heart icons__heart"></i>
+                <i class="fa-solid fa-heart icons__heart"></i>
+                <i class="fa-solid fa-heart icons__heart"></i>
+            </div>
+        </div>
+
+        <div class="musics">
+            <span class="musics__close">X</span>
+            <ul class="musics__list"></ul>
+        </div>
+    </div>
+    <footer class="footer__box">
+        <img src="./assets/images/image-1.svg" alt="my avatar" class="footer__avatar">
+        <div class="author">
+          <span class="author__text">Creation of</span>
+          <a href="https://github.com/rodrigompires?tab=repositories" class="btn-flip" data-back="Developer"
+            data-front="Rodrigo Pires" target="_blank"></a>
+        </div>
+      </footer>
+</body>
+
+</html>

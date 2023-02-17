@@ -1,0 +1,65 @@
+// Tipografia
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+$ffamily: 'Outfit',sans-serif;
+$ffamily2: 'Poppins', sans-serif;;
+$fweights400: 400;
+$fweights700: 700;
+$fsize: 15px;
+
+// Cores
+
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$gravish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$music: #4A4B6D;
+$name: #EEEBF3;
+$body-player-bkg: #222439;
+$container-player-bkg: #191A2E;
+
+
+
+$color-button: #323237;
+$background-button: #adadaf;
+
+$orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+$green: #02B8AC;
+$red: hsl(1, 90%, 64%);
+
+$preto1: #191B28;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: $fsize;
+    font-weight: $fweights400;
+    transition: all .5s linear;
+    
+}
+
+body {
+    font-family: $ffamily;
+    background-color: $light-gray;
+    min-width: 375px;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: $white;
+    width: 21.3rem;
+    min-height: 33.1rem;
+    border-radius: 20px;
+}

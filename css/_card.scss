@@ -1,0 +1,64 @@
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.1rem .8rem;
+
+    &__boximg {
+        width: 19.2rem;
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    &__boxtext {
+        text-align: center;
+    }
+
+    &__text {
+        color: $dark-blue;
+        font-weight: $fweights700;
+        font-size: 1.49rem;
+        margin-top: 1.35rem;
+    }
+
+    &__boxothers {
+        text-align: center;
+        padding: 0rem 1.50rem;
+    }
+
+    &__others {
+        font-size: 1rem;
+        color: $gravish-blue;
+        margin-top: 1rem;
+    }
+}
+
+.change {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 19rem;
+    margin-bottom: .1rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &__icon {
+        color: $dark-blue;
+    }
+}
+
+.controls, .duration, .timer, .wave, .artist, .volume, .icons, .musics, footer {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
